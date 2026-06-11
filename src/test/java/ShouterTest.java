@@ -40,10 +40,11 @@ public class ShouterTest {
 	
 	@Test
 	public void testIntentionalFailure() {
-		boolean shouldFail = false; 
+		boolean shouldFail = true; 
 		if (shouldFail) {
 			fail("This test is intentionally failed to test CI/CD build failure");
 		}
 	}
+
 
 }
